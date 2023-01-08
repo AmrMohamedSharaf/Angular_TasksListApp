@@ -1,0 +1,9 @@
+<div *ngIf=task>
+    <h2>{{task.name | uppercase}} Details</h2>
+    <div>id: {{task.id}}</div>
+    <div>
+      <label for="Task-content ">{{task.content}}: </label>
+      <button  type="button" (click)="OnDelete()">
+        <span class="name">Remove Task</span>
+      </button>    </div>
+  </div>

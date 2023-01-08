@@ -1,0 +1,9 @@
+{
+  "posts": [
+    {
+      "name": "task 1",
+      "content": "test task",
+      "id": 1
+    }
+  ]
+}

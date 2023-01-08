@@ -1,0 +1,12 @@
+<h1>Add Task</h1>
+<nav>
+    <a routerLink="/tasks">Tasks</a>
+  </nav>
+
+<form (ngSubmit) =  "onsubmit()"> 
+    <label > Task Name</label>
+    <input type = "text" name="name" [(ngModel)] = "name" > 
+    <label>Task Description</label>
+    <textarea name="content" [(ngModel)] = "content" cols="30" rows="10" ></textarea>
+    <button  class  = "button"> Add Task </button>
+</form>
